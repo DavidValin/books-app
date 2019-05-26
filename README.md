@@ -27,11 +27,11 @@ It searches books by text or voice through openlibrary.org.
 
 ### Features
 
-  [x] As a user I want to search book through openlibrary.org by speech recognition
-  [x] As a user I want to search books through openlibrary.org by entering a search query text
-  [x] As a user I want to see the books results in a carousel that automatically loops infinitely
-  [x] As a user I want carousel to stop when tab is in background mode
-  [x] As a user I want to lazy load the next closest chunk of books cover images
-  [x] As a user I want to render the books cover images in the best size for the device
-  [x] As a user I want the user interface to be responsive
-  [x] As a user I want to see the date and time that search was retrieved in the user's navigator locale
+* [x] As a user I want to search book through openlibrary.org by speech recognition
+* [x] As a user I want to search books through openlibrary.org by entering a search query text
+* [x] As a user I want to see the books results in a carousel that automatically loops infinitely
+* [x] As a user I want carousel to stop when tab is in background mode
+* [x] As a user I want to lazy load the next closest chunk of books cover images
+* [x] As a user I want to render the books cover images in the best size for the device
+* [x] As a user I want the user interface to be responsive
+* [x] As a user I want to see the date and time that search was retrieved in the user's navigator locale
