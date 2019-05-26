@@ -1,0 +1,9 @@
+'use strict';
+/**
+ * Actions
+ */
+export const TOGGLE_VOICE_SEARCH = "TOGGLE_VOICE_SEARCH";
+export const START_SEARCHING = 'START_SEARCHING';
+export const SET_VOICE_QUERY = "SET_VOICE_QUERY";
+export const SET_SEARCH_RESULTS = "SET_SEARCH_RESULTS";
+export const SET_CURRENT_SEARCH_RESULT = "SET_CURRENT_SEARCH_RESULT";

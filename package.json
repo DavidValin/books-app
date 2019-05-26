@@ -1,0 +1,28 @@
+{
+  "name": "books-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "watch-and-test": "polymer test --persistent",
+    "test": "yarn polymer test",
+    "dev": "yarn webpack --config webpack.dev.conf.js --watch > /dev/null | yarn polymer serve",
+    "build": "yarn webpack --config webpack.prod.conf.js --watch false"
+  },
+  "author": "David Valin <hola@davidvalin.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "latest",
+    "annyang": "^2.6.1",
+    "lit-element": "^2.1.0",
+    "polymer-cli": "^1.9.9",
+    "redux": "^4.0.1"
+  }
+}

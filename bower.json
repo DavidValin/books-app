@@ -1,0 +1,21 @@
+{
+  "name": "books-app",
+  "description": "",
+  "main": "dist/bundle.js",
+  "authors": [
+    "David Valin <hola@davidvalin.com>"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "web-component-tester": "^6.5.0"
+  }
+}

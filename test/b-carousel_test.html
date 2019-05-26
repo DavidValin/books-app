@@ -1,0 +1,24 @@
+<script src="/bower_components/web-component-tester/browser.js"></script>
+<script src="../dist/bundle.js"></script>
+
+<test-fixture id="b-carousel-fixture">
+  <template>
+    <b-carousel height="300"> 
+    </b-carousel>
+  </template>
+</test-fixture>
+
+<script>
+  suite('<b-carousel>', () => {
+    let carouselEl;
+    setup(() => { carouselEl = fixture('b-carousel-fixture'); });
+
+    test('it should render the carousel items sliding vertically automatically by default', (done) => {
+      // TODO: implement
+    });
+
+    test('it should slide to the first carousel item when going to next', () => {
+      // TODO: implement
+    });
+  });
+</script>

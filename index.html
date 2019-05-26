@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/meyer-reset/2.0/reset.min.css" media="screen" />
+
+    <!-- Load Shared styles -->
+    <link rel="stylesheet" type="text/css" href="/src/shared_styles.css" media="screen" />
+
+    <!-- Load polyfills -->
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" defer></script>
+
+    <script type="module">
+      window.WebComponents = window.WebComponents || {
+        waitFor(cb){ addEventListener('WebComponentsReady', cb) }
+      }
+      WebComponents.waitFor(async () => {
+        import('./dist/bundle.js');
+      });
+    </script>
+
+    <meta name="description" content="A book search through openlibrary.org">
+    <title>books app</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <books-app></books-app>
+    <noscript>You need Javascript enabled in your browser</noscript>
+  </body>
+</html>
